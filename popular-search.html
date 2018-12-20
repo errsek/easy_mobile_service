@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Easy Mobile Service</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr']
+				} );
+			} );
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    <script src="js/easyResponsiveTabs.js"></script>
+</head>
+<body>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><span>Easy </span>Mobile Service</a>
+				</div>
+				<div class="header-right">
+				<a class="account" href="login.html">Akun</a>
+	
+							</div>
+						</div>
+					</div>
+				<script>
+				$('#myModal').modal('');
+				</script>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="main-banner banner text-center">
+		<div class="container">    
+			  <h1 style="">Tempat Servis Handphone   <span style="text-background:black">   TERPERCAYA </span> Tak Usah Ragu</h1>
+			  <p>Menyelesaikan Masalah handphone tanpa Masalah Baru</p>
+			  
+		</div>
+	  </div>
+
+	<div class="popular-search main-grid-border">
+		<div class="container">
+			<h2 class="head">Most popular search phrases</h2>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="foo-grids">
+					<div class="col-md-4 footer-grid">
+						<h4 class="footer-head">SiapaKah EMS ?</h4>
+						<p>Merukaan Tempat servis terpercaya yang sudah terbukti ></p>
+						<p>Memperbaiki handphone anda dengan cepat, rapi dan Berkualitas</p>
+					</div>
+					<div class="col-md-1 footer-grid"></div>
+
+					<div class="col-md-3 footer-grid">
+						<h4 class="footer-head">Informasi</h4>
+						<ul>
+							<li><a href="regions.html">Locations Map</a></li>	
+							<li><a href="terms.html">Terms of Use</a></li>
+							<li><a href="popular-search.html">Popular searches</a></li>	
+							<li><a href="privacy.html">Privacy Policy</a></li>	
+						</ul>
+					</div>
+					<div class="col-md-4 footer-grid">
+						<h4 class="footer-head">Hubungi</h4>
+						<address>
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-map-marker"></span></li>
+								<li>Jl Printis Kemerdekaan no 195 pahoman bandar lampung </li>
+								<div class="clearfix"></div>
+							</ul>	
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-earphone"></span></li>
+								<li>+62 857 6804 1238</li>
+								<div class="clearfix"></div>
+							</ul>	
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-envelope"></span></li>
+								<li><a href="errsekliwa28@gmail.com">errsekliwa28@gmail.com</a></li>
+								<div class="clearfix"></div>
+							</ul>						
+						</address>
+					</div>
+					<div class="clearfix"></div>
+				</div>						
+			</div>	
+		</div>	
+		<div class="footer-bottom text-center">
+		<div class="container">
+			<div class="footer-logo">
+				<a href="index.html"><span>Easy</span>Mobile Servis</a>
+			</div>
+			<div class="footer-social-icons">
+				<ul>
+					<li><a class="facebook" href="#"><span>Facebook</span></a></li>
+					<li><a class="twitter" href="#"><span>Twitter</span></a></li>
+					<li><a class="flickr" href="#"><span>Flickr</span></a></li>
+					<li><a class="googleplus" href="#"><span>Google+</span></a></li>
+					<li><a class="dribbble" href="#"><span>Dribbble</span></a></li>
+				</ul>
+			</div>
+			<div class="copyrights">
+				<p> Easy Mobile Service| Design by  <a href="https://www.instagram.com/errsek/">Ery Setiawan</a></p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Easy Mobile Service</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] 
+				} );
+			} );
+		</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="login.html"><span>Easy </span>Mobile Service</a>
+			</div>
+			<div class="header-right">
+			<a class="account" href="login.html" >Akun</a>
+			
+			
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+					aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								
+						</div>
+					</div>
+				<script>
+				$('#myModal').modal('');
+				</script>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="main-banner banner text-center">
+	  <div class="container">    
+			<h1 style="">Tempat Servis Handphone   <span style="text-background:black">   TERPERCAYA </span> Tak Usah Ragu</h1>
+			<p>Menyelesaikan Masalah handphone tanpa Masalah Baru</p>
+			
+	  </div>
+	</div>
+
+		<div class="content">
+			<div class="categories">
+				<div class="container">
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<img  src="images/samsung.png" width="128px" height="128" title="samsung Sperpart" alt=""/>
+									<h4 style="text-color:black">Samsung</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<img  src="images/apple.png" width="128px"  title="iphone Sperpart" alt=""/>
+									<h4 style="text-color:black">Iphone</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+										<img  src="images/mi.png" width="128px" height="128"title="xiaomi Sperpart" alt=""/>
+									<h4 style="text-color:black">Xiaomi</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+										<img  src="images/opo.png" width="128px" height="128" title="oppo Sperpart" alt=""/>
+									<h4 style="text-color:black">Oppo</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+										<img  src="images/vivo.png" width="128px" height="128" title="vivo Sperpart" alt=""/>
+									<h4 style="text-color:black">Vivo</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="login.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+										<img  src="images/clp.jpg" width="128px" height="128" title="coolpad Sperpart" alt=""/>
+									<h4 style="text-color:black">Coolpad</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+		
+		<footer>
+			<div class="footer-top">
+				<div class="container">
+					<div class="foo-grids">
+						<div class="col-md-4 footer-grid">
+							<h4 class="footer-head">SiapaKah EMS ?</h4>
+							<p>Merukaan Tempat servis terpercaya yang sudah terbukti </p>
+							<p>Memperbaiki handphone anda dengan cepat, rapi dan Berkualitas</p>
+						</div>
+						<div class="col-md-1 footer-grid"></div>
+
+						<div class="col-md-3 footer-grid">
+							<h4 class="footer-head">Informasi</h4>
+							<ul>
+								<li><a href="#">Locations Map</a></li>	
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Popular searches</a></li>	
+								<li><a href="#">Privacy Policy</a></li>	
+							</ul>
+						</div>
+						<div class="col-md-4 footer-grid">
+							<h4 class="footer-head">Hubungi</h4>
+							<address>
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-map-marker"></span></li>
+									<li>Jl Printis Kemerdekaan no 195 pahoman bandar lampung </li>
+									<div class="clearfix"></div>
+								</ul>	
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-earphone"></span></li>
+									<li>+62 857 6804 1238</li>
+									<div class="clearfix"></div>
+								</ul>	
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-envelope"></span></li>
+									<li><a href="#">errsekliwa28@gmail.com</a></li>
+									<div class="clearfix"></div>
+								</ul>						
+							</address>
+						</div>
+						<div class="clearfix"></div>
+					</div>						
+				</div>	
+			</div>	
+			<div class="main-19.jpg">
+			<div class="footer-bottom text-center">
+			<div class="container">
+				<div class="footer-logo">
+					<a href="#"><span>Easy</span>Mobile Servis</a>
+				</div>
+				<div class="footer-social-icons">
+					<ul>
+						<li><a class="facebook" href="#"><span>Facebook</span></a></li>
+						<li><a class="twitter" href="#"><span>Twitter</span></a></li>
+						<li><a class="flickr" href="#"><span>Flickr</span></a></li>
+						<li><a class="googleplus" href="#"><span>Google+</span></a></li>
+						<li><a class="dribbble" href="#"><span>Dribbble</span></a></li>
+					</ul>
+				</div>
+				<div class="copyrights">
+					<p> Easy Mobile Service| Design by  <a href="#">Ery Setiawan</a></p>
+				</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			</div>
+		</footer>
+        
+</body>
+</html>
